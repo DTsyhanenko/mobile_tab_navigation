@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="/Compiled-CSS/css/style.css")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer")
+        title Mobile Tab Navigation
+    body
+        .phone 
+            img.content.show(src="https://images.unsplash.com/photo-1659974959763-c1cbd092bbe6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1421&q=80", alt="home")
+            img.content(src="https://images.unsplash.com/photo-1660036917088-a4b37a262751?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80", alt="work")
+            img.content(src="https://images.unsplash.com/photo-1659808013640-c3db5b44c5e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80", alt="blog")
+            img.content(src="https://images.unsplash.com/photo-1583663848850-46af132dc08e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80", alt="about")
+            nav 
+                ul 
+                    li.active 
+                        i.fa-solid.fa-house
+                        p Home
+                    li 
+                        i.fa-solid.fa-box
+                        p Work
+                    li 
+                        i.fa-solid.fa-book-open
+                        p Blog
+                    li 
+                        i.fa-solid.fa-users
+                        p About Us
+
+        script(src="/dist/index.js")
